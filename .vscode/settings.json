@@ -1,5 +1,16 @@
 {
   "totvsLanguageServer.welcomePage": false,
-  "totvsLanguageServer.editor.linter.includes": "C:\\Totvs Local\\include",
-  "totvsLanguageServer.web.open.external": true
+
+  "totvsLanguageServer.editor.linter.includes": "C:\\TOTVS\\include",
+
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*\\.(prw|tlpp)$",
+        "isAsync": true,
+        "cmd": "powershell.exe -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\GenerateAllReadmes.ps1\""
+      }
+    ]
+  },
+  "totvsLanguageServer.workspaceServerConfig": false
 }

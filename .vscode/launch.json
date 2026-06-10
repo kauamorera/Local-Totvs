@@ -7,13 +7,70 @@
 			"name": "Smart Client Web Debug",
 			"program": "${command:AskForProgramName}",
 			"isMultiSession": true,
-			"enableTableSync": true
+			"enableTableSync": true,
+			"enableMultiThread": true,
+			"cwb": "${workspaceFolder}"
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:/TOTVS_LG/Protheus/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"extendFeatures": {
+				"charDetails": false
+			}
 		}
 	],
 	"lastPrograms": [
 		{
-			"label": "SIGAADV"
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "U_TesteKB"
+		},
+		{
+			"label": "u_zMVCMd3"
+		},
+		{
+			"label": "u_GIPCPR17"
+		},
+		{
+			"args": [],
+			"label": "u_GIPCPR17"
+		},
+		{
+			"label": "SIGAPCP"
+		},
+		{
+			"label": "u_testBrunno"
+		},
+		{
+			"label": "u_TesteBV"
+		},
+		{
+			"label": "TESTE_GIACDA02"
+		},
+		{
+			"label": "u_TESTE_GIACDA02"
+		},
+		{
+			"label": "u_GIACDA02"
+		},
+		{
+			"label": "u_tstGIACDA02"
+		},
+		{
+			"args": [],
+			"label": "tstGIACDA02"
+		},
+		{
+			"label": "VTDEBUG"
 		}
 	],
-	"lastProgramExecuted": "SIGAADV"
+	"lastProgramExecuted": "SIGAMDI",
+	"lastProgramArguments": []
 }
