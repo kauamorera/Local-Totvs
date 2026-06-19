@@ -1,4 +1,4 @@
-﻿# Modulo Totvs Local
+﻿# Modulo Local Totvs
 
 Repositorio dos fontes customizados do modulo.
 
@@ -8,3 +8,5 @@ Repositorio dos fontes customizados do modulo.
 |------|
 | zMiniForm |
 | zTeste |
+| BoletoTest |
+| ml_bollsr |

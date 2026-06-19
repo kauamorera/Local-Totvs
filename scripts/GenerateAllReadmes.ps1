@@ -1,5 +1,5 @@
 $modules = Get-ChildItem -Directory | Where-Object {
-  $_.Name -like "modulo-*"
+    Test-Path (Join-Path $_.FullName "Fontes")
 }
 
 foreach ($module in $modules) {
